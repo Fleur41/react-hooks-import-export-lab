@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -56,9 +56,45 @@ nav a:active {
 }
 
 #home {
-  background-color: cornsilk;
+  height: 100px;
+  background-color: rgb(255, 250, 231);
 }
 
 #about img {
   max-height: 50%;
+}
+.tweet{
+  margin: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: centre;
+  align-content: centre;
+}
+.tweet img{
+  width: 300px;
+  height: 300px;
+}
+.tweet__body{
+  align-items: center;
+  margin: 20px;
+  font-weight: bold;
+
+}
+.time{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.links a:hover {
+  color: red;
+  cursor: pointer;
 }
